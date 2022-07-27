@@ -9,7 +9,6 @@ def counting_sort(arr):
     
     for i in range(1,len(lst)):
         lst[i]+=lst[i-1]
-    print(lst)
 
     res=[None]*len(arr)
     for ele in arr:

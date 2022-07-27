@@ -23,5 +23,5 @@ def Quicksort(arr,start,end):
         arr = Quicksort(arr,end+1,ending)
     return arr
 
-arr = [9,8,7,6,5,4]
+arr = [9,8,7,9,6,5,4]
 print(Quicksort(arr,0,len(arr)-1))    
